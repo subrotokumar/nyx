@@ -16,7 +16,7 @@
     <img src="./assets/images/moon.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">NYX : NFT Galary</h3>
+  <h3 align="center">NYX : NFT Gallery</h3>
 
   <p align="center">
     NFT-Explorer for Mobile Device
