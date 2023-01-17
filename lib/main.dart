@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:nyx/pages/splash.dart';
 import './pages/home.dart';
 
 void main() {
@@ -15,7 +16,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'NYX : NFT Galary',
       theme: ThemeData.dark(),
-      home: HomeScreen(),
+      routes: {
+        '/': (context) => const SplashScreen(),
+        '/home': (context) => HomeScreen(),
+      },
     );
   }
 }

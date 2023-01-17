@@ -43,3 +43,5 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 cred.dart
+key.properties
+upload-keystore.jks
